@@ -1,0 +1,37 @@
+{
+  "name": "temporary-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officialpiyush/temporary-storage.git"
+  },
+  "keywords": [
+    "temporary",
+    "storage",
+    "fs"
+  ],
+  "author": "Piyush Bhangale",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/officialpiyush/temporary-storage/issues"
+  },
+  "homepage": "https://github.com/officialpiyush/temporary-storage#readme",
+  "dependencies": {
+    "endb": "^0.22.9",
+    "node-schedule": "^1.3.2",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "@types/node-schedule": "^1.3.0",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3",
+    "typescript-tslint-plugin": "^0.5.5"
+  }
+}
