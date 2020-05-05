@@ -1,7 +1,7 @@
 {
   "name": "temporary-storage",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1-alpha",
+  "description": "Store stuff temporarily",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/officialpiyush/temporary-storage#readme",
   "dependencies": {
     "endb": "^0.22.9",
+    "fs-nextra": "^0.4.7",
     "node-schedule": "^1.3.2",
     "sqlite3": "^4.2.0"
   },
