@@ -13,13 +13,14 @@ class TemporaryStorage extends EventEmitter {
     public ready: boolean;
     public time: number;
 
-    constructor(options: IOptions) {
+    constructor(options: IOptions = {}) {
         super();
 
         this.ready = false;
         this._path = options.path || "sqlite://db/tempstorage.sqlite";
         this._db = new Endb({uri: this._path, namespace: "storage"});
         this.time = options.time || 1200;
+        this._init();
     };
 
     private async _init() {
