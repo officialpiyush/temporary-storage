@@ -1,8 +1,8 @@
 {
   "name": "temporary-storage",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "description": "Store stuff temporarily",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc",
     "test": "tslint -p tsconfig.json"
